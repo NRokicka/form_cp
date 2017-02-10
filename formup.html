@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+   
+    <title>Forms Color PRO</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+   
+     <header>
+    <h1>Color PRO</h1>
+    </header>
+    
+    <main class="main">
+    <div class="form_sign" >
+   <h2>Зареєструватись</h2>
+            <form  id="MyFormUp" class="form_sign_up">
+                <label for="f_name" class="form_label"></label><br>
+                <input id="f_name" type="text" name="f_name" placeholder="Ім'я" class="form_input"><br>
+                <label for="l_name" class="form_label"></label><br>
+                <input id="l_name" type="text" name="l_name" placeholder="Прізвище" class="form_input"><br>
+                <label for="email" class="form_label"></label><br>
+                <input id="email" type="text" name="email" placeholder="ел. пошта" class="form_input"><br>
+                <label for="name" class="form_label"></label><br>
+                <input id="login" type="text" name="name" placeholder="Логін" class="form_input"><br>
+                 <label for="pswd1" class="form_label"></label><br>
+                 <input id="pswd1" type="password" name="pswd1" placeholder="Пароль" class="form_input"><br>
+                <label for="pswd2" class="form_label"></label><br>
+                 <input id="pswd2" type="password" name="pswd2" placeholder="Підтвердити пароль" class="form_input"><br>
+                <input id="submit" type="submit"  value="Створити обліковий запис" class="btn_sign_up">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>all rignt</p>
+     </footer>
+    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+     <script src="jquery.validate.js"></script>
+<script>
+$("#MyFormUp").validate();
+</script> 
+ <script type="text/javascript" src="js/myscriptup.js"></script>
+    <script type="text/javascript" src="js/myformup.js"></script>
+</body>
+
+</html>
