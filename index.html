@@ -20,10 +20,10 @@
     <div class="form_sign" >
     <div class="form_sign_in" >
             <form  id="MyForm" >
-                <label for="login" class="form_label">Логін</label><br>
-                <input id="login" type="text" name="login" class="form_input"><br>
-                <label for="pswd" class="form_label">Пароль</label><br>
-                 <input id="pswd" type="password" name="pswd" class="form_input"><br>
+                <label for="name" class="form_label">Логін</label><br>
+                <input id="login" type="text" name="name" class="form_input" minlength="2" required><br>
+                <label for="password" class="form_label">Пароль</label><br>
+                 <input id="pswd" type="password" name="password" class="form_input" minlength="5" required><br>
                 <input id="submit" type="submit" value="Увійти" class="btn_sign_in">
             </form>
             </div>
@@ -37,14 +37,12 @@
    <footer class="footer">
        <p>all rignt</p>
      </footer>
-    <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script src="jquery.validate.js"></script>
-<script>
-$("#MyForm").validate();
-</script> 
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+     <script src="js/jquery.validate.js"></script>
     <script type="text/javascript" src="js/myscript.js"></script>
-    <script type="text/javascript" src="js/myform.js"></script>
-   
 </body>
 
 </html>
